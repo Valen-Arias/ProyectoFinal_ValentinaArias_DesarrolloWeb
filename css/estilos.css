@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+/* HEADER */
+
+
+header{
+    font-size: 0;
+    background-color: #c9f0ff;
+    height: 13vh;
+    position: sticky;
+    top: 0;
+}
+
+
+#logo{
+    font-size: 1rem;
+    display: inline-block;
+    /* background-color: rgb(255, 206, 127); */
+    width: 20%;
+    vertical-align: middle;
+}
+
+#logo img {
+    height: 9vh;
+    margin: 3% 5%;
+}
+
+
+header nav{
+    font-size: 1rem;
+    display: inline-block;
+    /* background-color: rgb(157, 127, 255); */
+    width: 80%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+header nav ul li{
+    background-color: #45914d;
+    display: inline-block;
+    list-style: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 5%;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+/* MAIN */
+
+main{
+    background-color: #68e76a21;
+    font-size: 0;
+}
+
+section{
+    font-size: 1rem;
+}
+
+#portada{
+    height: 100vh;
+    background-image: url(../assets/img/frente_opaco_40.png);
+    background-size: 100%;
+    text-align: center;
+    color: white;
+    background-repeat: no-repeat;
+}
+
+#portada p{
+    line-height: 30rem;
+    font-size: 3rem;
+}
+
+#portada h1{
+    line-height: 0;
+    font-size: 20rem;
+}
+
+#descripcion_empresa{
+    text-align: center;
+    margin: 5%;
+}
+
+.subtitulo{
+    text-align: center;
+    font-size:5rem;
+}
+
+
+.card_rubro{
+    display: inline-block;
+    background-color: blanchedalmond;
+    padding: 15px;
+    border-radius: 25px;
+    margin: 5%;
+    max-width: 20%;
+    text-align: center;
+}
+
+.card_rubro a{
+    color: black;
+    text-decoration: none;
+}
+
+.card_rubro p{
+    margin-bottom: 20px;
+}
+
+.link_ver_producto{
+    color: white;
+    background-color: #45914d;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+main img{
+    max-width: 100%;
+}
+
+
+.titulo{
+    text-align: center;
+    font-size: 5rem;
+}
+
+
+.texto_centrado{
+    text-align: center;
+}
+
+
+.card_contacto{
+    background-color: blanchedalmond;
+    padding: 10px;
+    border-radius: 25px;
+    margin: 5%;
+    max-width: 20%;
+    text-align: center;
+}
+
+.card_contacto a{
+    color: black;
+    text-decoration: none
+}
+
+
+.contactos{
+    font-size: 1rem;
+    display: inline-block;
+    width: 50%;
+}
+
+.ubicacion{
+    font-size: 1rem;
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+}
+
+
+
+
+
+/* FOOTER */
+
+footer{
+    background-color: #6d8d68;
+    height: 10vh;
+}
+
+#contenedor_footer{
+    text-align: center;
+}
+
+.redes{
+    display: inline-block;
+}
+
+.redes img{
+    width: 50px;
+    margin: 0 20px;
+    margin-top: 15px;
+}
